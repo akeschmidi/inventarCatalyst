@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99A642C24458AB40091A83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A642B24458AB40091A83E /* AppDelegate.swift */; };
+		C99A642E24458AB40091A83E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A642D24458AB40091A83E /* SceneDelegate.swift */; };
+		C99A643024458AB40091A83E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A642F24458AB40091A83E /* ContentView.swift */; };
+		C99A643224458AB50091A83E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99A643124458AB50091A83E /* Assets.xcassets */; };
+		C99A643524458AB50091A83E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99A643424458AB50091A83E /* Preview Assets.xcassets */; };
+		C99A643824458AB50091A83E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99A643624458AB50091A83E /* LaunchScreen.storyboard */; };
+		C99A644324458AB50091A83E /* inventarCatalystTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A644224458AB50091A83E /* inventarCatalystTests.swift */; };
+		C99A644E24458AB50091A83E /* inventarCatalystUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99A644D24458AB50091A83E /* inventarCatalystUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C99A643F24458AB50091A83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99A642024458AB40091A83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99A642724458AB40091A83E;
+			remoteInfo = inventarCatalyst;
+		};
+		C99A644A24458AB50091A83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99A642024458AB40091A83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99A642724458AB40091A83E;
+			remoteInfo = inventarCatalyst;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C99A642824458AB40091A83E /* inventarCatalyst.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = inventarCatalyst.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99A642B24458AB40091A83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C99A642D24458AB40091A83E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C99A642F24458AB40091A83E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C99A643124458AB50091A83E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C99A643424458AB50091A83E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C99A643724458AB50091A83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C99A643924458AB50091A83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99A643E24458AB50091A83E /* inventarCatalystTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inventarCatalystTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99A644224458AB50091A83E /* inventarCatalystTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventarCatalystTests.swift; sourceTree = "<group>"; };
+		C99A644424458AB50091A83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99A644924458AB50091A83E /* inventarCatalystUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = inventarCatalystUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99A644D24458AB50091A83E /* inventarCatalystUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventarCatalystUITests.swift; sourceTree = "<group>"; };
+		C99A644F24458AB50091A83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99A645B24458BA50091A83E /* inventarCatalyst.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = inventarCatalyst.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99A642524458AB40091A83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99A643B24458AB50091A83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99A644624458AB50091A83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99A641F24458AB40091A83E = {
+			isa = PBXGroup;
+			children = (
+				C99A642A24458AB40091A83E /* inventarCatalyst */,
+				C99A644124458AB50091A83E /* inventarCatalystTests */,
+				C99A644C24458AB50091A83E /* inventarCatalystUITests */,
+				C99A642924458AB40091A83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99A642924458AB40091A83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99A642824458AB40091A83E /* inventarCatalyst.app */,
+				C99A643E24458AB50091A83E /* inventarCatalystTests.xctest */,
+				C99A644924458AB50091A83E /* inventarCatalystUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99A642A24458AB40091A83E /* inventarCatalyst */ = {
+			isa = PBXGroup;
+			children = (
+				C99A645B24458BA50091A83E /* inventarCatalyst.entitlements */,
+				C99A642B24458AB40091A83E /* AppDelegate.swift */,
+				C99A642D24458AB40091A83E /* SceneDelegate.swift */,
+				C99A642F24458AB40091A83E /* ContentView.swift */,
+				C99A643124458AB50091A83E /* Assets.xcassets */,
+				C99A643624458AB50091A83E /* LaunchScreen.storyboard */,
+				C99A643924458AB50091A83E /* Info.plist */,
+				C99A643324458AB50091A83E /* Preview Content */,
+			);
+			path = inventarCatalyst;
+			sourceTree = "<group>";
+		};
+		C99A643324458AB50091A83E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C99A643424458AB50091A83E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C99A644124458AB50091A83E /* inventarCatalystTests */ = {
+			isa = PBXGroup;
+			children = (
+				C99A644224458AB50091A83E /* inventarCatalystTests.swift */,
+				C99A644424458AB50091A83E /* Info.plist */,
+			);
+			path = inventarCatalystTests;
+			sourceTree = "<group>";
+		};
+		C99A644C24458AB50091A83E /* inventarCatalystUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C99A644D24458AB50091A83E /* inventarCatalystUITests.swift */,
+				C99A644F24458AB50091A83E /* Info.plist */,
+			);
+			path = inventarCatalystUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99A642724458AB40091A83E /* inventarCatalyst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99A645224458AB50091A83E /* Build configuration list for PBXNativeTarget "inventarCatalyst" */;
+			buildPhases = (
+				C99A642424458AB40091A83E /* Sources */,
+				C99A642524458AB40091A83E /* Frameworks */,
+				C99A642624458AB40091A83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = inventarCatalyst;
+			productName = inventarCatalyst;
+			productReference = C99A642824458AB40091A83E /* inventarCatalyst.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C99A643D24458AB50091A83E /* inventarCatalystTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99A645524458AB50091A83E /* Build configuration list for PBXNativeTarget "inventarCatalystTests" */;
+			buildPhases = (
+				C99A643A24458AB50091A83E /* Sources */,
+				C99A643B24458AB50091A83E /* Frameworks */,
+				C99A643C24458AB50091A83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99A644024458AB50091A83E /* PBXTargetDependency */,
+			);
+			name = inventarCatalystTests;
+			productName = inventarCatalystTests;
+			productReference = C99A643E24458AB50091A83E /* inventarCatalystTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C99A644824458AB50091A83E /* inventarCatalystUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99A645824458AB50091A83E /* Build configuration list for PBXNativeTarget "inventarCatalystUITests" */;
+			buildPhases = (
+				C99A644524458AB50091A83E /* Sources */,
+				C99A644624458AB50091A83E /* Frameworks */,
+				C99A644724458AB50091A83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99A644B24458AB50091A83E /* PBXTargetDependency */,
+			);
+			name = inventarCatalystUITests;
+			productName = inventarCatalystUITests;
+			productReference = C99A644924458AB50091A83E /* inventarCatalystUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99A642024458AB40091A83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Stefan Schwinghammer";
+				TargetAttributes = {
+					C99A642724458AB40091A83E = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					C99A643D24458AB50091A83E = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = C99A642724458AB40091A83E;
+					};
+					C99A644824458AB50091A83E = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = C99A642724458AB40091A83E;
+					};
+				};
+			};
+			buildConfigurationList = C99A642324458AB40091A83E /* Build configuration list for PBXProject "inventarCatalyst" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99A641F24458AB40091A83E;
+			productRefGroup = C99A642924458AB40091A83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99A642724458AB40091A83E /* inventarCatalyst */,
+				C99A643D24458AB50091A83E /* inventarCatalystTests */,
+				C99A644824458AB50091A83E /* inventarCatalystUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99A642624458AB40091A83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99A643824458AB50091A83E /* LaunchScreen.storyboard in Resources */,
+				C99A643524458AB50091A83E /* Preview Assets.xcassets in Resources */,
+				C99A643224458AB50091A83E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99A643C24458AB50091A83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99A644724458AB50091A83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99A642424458AB40091A83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99A642C24458AB40091A83E /* AppDelegate.swift in Sources */,
+				C99A642E24458AB40091A83E /* SceneDelegate.swift in Sources */,
+				C99A643024458AB40091A83E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99A643A24458AB50091A83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99A644324458AB50091A83E /* inventarCatalystTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99A644524458AB50091A83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99A644E24458AB50091A83E /* inventarCatalystUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C99A644024458AB50091A83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99A642724458AB40091A83E /* inventarCatalyst */;
+			targetProxy = C99A643F24458AB50091A83E /* PBXContainerItemProxy */;
+		};
+		C99A644B24458AB50091A83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99A642724458AB40091A83E /* inventarCatalyst */;
+			targetProxy = C99A644A24458AB50091A83E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C99A643624458AB50091A83E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99A643724458AB50091A83E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C99A645024458AB50091A83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C99A645124458AB50091A83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C99A645324458AB50091A83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = inventarCatalyst/inventarCatalyst.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"inventarCatalyst/Preview Content\"";
+				DEVELOPMENT_TEAM = 34DTFQCK2V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = inventarCatalyst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.isupport.inventarCatalyst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C99A645424458AB50091A83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = inventarCatalyst/inventarCatalyst.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"inventarCatalyst/Preview Content\"";
+				DEVELOPMENT_TEAM = 34DTFQCK2V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = inventarCatalyst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.isupport.inventarCatalyst;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C99A645624458AB50091A83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34DTFQCK2V;
+				INFOPLIST_FILE = inventarCatalystTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.isupport.inventarCatalystTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inventarCatalyst.app/inventarCatalyst";
+			};
+			name = Debug;
+		};
+		C99A645724458AB50091A83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34DTFQCK2V;
+				INFOPLIST_FILE = inventarCatalystTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.isupport.inventarCatalystTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/inventarCatalyst.app/inventarCatalyst";
+			};
+			name = Release;
+		};
+		C99A645924458AB50091A83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34DTFQCK2V;
+				INFOPLIST_FILE = inventarCatalystUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.isupport.inventarCatalystUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = inventarCatalyst;
+			};
+			name = Debug;
+		};
+		C99A645A24458AB50091A83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34DTFQCK2V;
+				INFOPLIST_FILE = inventarCatalystUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ch.isupport.inventarCatalystUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = inventarCatalyst;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99A642324458AB40091A83E /* Build configuration list for PBXProject "inventarCatalyst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99A645024458AB50091A83E /* Debug */,
+				C99A645124458AB50091A83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99A645224458AB50091A83E /* Build configuration list for PBXNativeTarget "inventarCatalyst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99A645324458AB50091A83E /* Debug */,
+				C99A645424458AB50091A83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99A645524458AB50091A83E /* Build configuration list for PBXNativeTarget "inventarCatalystTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99A645624458AB50091A83E /* Debug */,
+				C99A645724458AB50091A83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99A645824458AB50091A83E /* Build configuration list for PBXNativeTarget "inventarCatalystUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99A645924458AB50091A83E /* Debug */,
+				C99A645A24458AB50091A83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C99A642024458AB40091A83E /* Project object */;
+}
