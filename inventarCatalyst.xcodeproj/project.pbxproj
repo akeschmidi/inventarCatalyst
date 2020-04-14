@@ -50,6 +50,7 @@
 		C99A644D24458AB50091A83E /* inventarCatalystUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventarCatalystUITests.swift; sourceTree = "<group>"; };
 		C99A644F24458AB50091A83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99A645B24458BA50091A83E /* inventarCatalyst.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = inventarCatalyst.entitlements; sourceTree = "<group>"; };
+		C99A645C24458DFA0091A83E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +81,7 @@
 		C99A641F24458AB40091A83E = {
 			isa = PBXGroup;
 			children = (
+				C99A645C24458DFA0091A83E /* README.md */,
 				C99A642A24458AB40091A83E /* inventarCatalyst */,
 				C99A644124458AB50091A83E /* inventarCatalystTests */,
 				C99A644C24458AB50091A83E /* inventarCatalystUITests */,
